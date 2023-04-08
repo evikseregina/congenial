@@ -384,6 +384,10 @@ img {
 
 }
 
+.main__student:hover {
+    animation: shadow-drop-center 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940);
+}
+
 .new::after {
     content: 'новичок';
     text-transform: uppercase;
