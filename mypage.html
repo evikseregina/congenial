@@ -6,183 +6,76 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=, initial-scale=1.0">
     <title>моя страничка</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="index.css">
+    <link rel="shortcut icon" href="img/favicon.svg" type="image/svg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 </head>
 
 <body>
-    <div id="pagehead">
-        <p class="base"><a class="headlink" href="#">Основа</a></p>
-        <p class="contacts"><a class="headlink" href="#">Контакты</a></p>
-        <p class="help"><a class="headlink" href="#">Помощь</a></p>
-        <p class="appeals"><a class="headlink" href="#">Обращения</a></p>
-    </div>
+    <header class="header"> <a class="header__logo" href="index.html">
+            <img class="header__image1" src="img/logo.svg" alt="Логотип"> </a>
+        <ul class="header__menu">
+            <li class="header__menu-list"><a class="header__menu-link" href="index.html">Главная</a></li>
+            <li class="header__menu-list"><a class="header__menu-link header__menu-link_active"
+                    href="students.html">Студенты</a></li>
+            <li class="header__menu-list"><a class="header__menu-link" href="about.html">О курсе</a></li>
+            <li class="header__menu-list"><a class="header__menu-link" href="contacts.html">Контакты</a></li>
+        </ul>
+        <a class="header__button" href="#">Войти</a>
+    </header>
+    <main class="main">
+        <div class="main__mypage-content">
+            <div class="main__content">
+                <h1 class="main__title">Мой рассказ о себе</h1>
+                <p class="main__text"> Всем привет! меня зовут Евфросиния. Мне 28 лет. Я учусь на социального психолога
+                    в
+                    Московском
+                    государственном социально-педагогическом университете, но сейчас я мама и нахожусь в академическом
+                    отпуске.
+                    Мою
+                    дочку зовут Роза, ей около 2ух лет.Очень хочу попробовать себя в качестве
+                    фронтэнд-разработчика,поэтому
+                    я
+                    записалась на курсы по веб-верстке. Я очень люблю изучать что-то новое, учиться и очень ответственно
+                    к
+                    этому
+                    отношусь. Считаю что в жизни главное: <strong class="main__strong"> свобода быть самим
+                        собой,доброта,любовь и
+                        самореализация.</strong>
+                <p class="main__slogan">Мои любимые жизненные девизы и цитаты:</p>
+                <ul class="main__list">
+                    <li>Дорогу осилит идущий</li>
+                    <li>Живи моментом</li>
+                    <li>Никогда не сдавайся</li>
+                </ul>
+                <img class="main__photo
+                " width="250px" height="300px" src="img/iam.jpg" alt="Мое фото">
+            </div>
+            <div class="main__content-info">
+                <h2 class="main__subtitle">Про дочку Розу</h2>
+                <p class="main__article"> Роза очень активный и любознательный ребенок. Она очень любит петь песни. Вот
+                    ее
+                    любимая
+                    песня
+                    :
+                <blockquote class="main__blockquote">zum zum zum papuero papa zum <br class="main__br"> zum zum papuero
+                    papa zum
+                </blockquote>
+                <p class="main__song">Эта песня из урока-обучения детей музыке, который мы смотрим вместе с ней на ютубе
+                </p>
+                <p class="main__video"> <a class="main__link" target="_blank"
+                        href="https://www.youtube.com/watch?v=zmLAeM6V1gw">детский
+                        урок</a> </p>
+                <img class="main__photo2" width="230px" height="300px" src="img/rose.jpg" alt="Моя дочка">
+            </div>
+        </div>
 
-    <div>
-        <h1 class="main">Мой рассказ о себе</h1>
-    </div>
-
-    <div>
-        <p class="hruu"> Всем привет! меня зовут Евфросиния. Мне 28 лет. Я учусь на социального психолога в Московском
-            государственном социально-педагогическом университете, но сейчас я мама и нахожусь в академическом отпуске.
-            Мою
-            дочку зовут Роза, ей около 2ух лет.Очень хочу попробовать себя в качестве фронтэнд-разработчика,поэтому я
-            записалась на курсы по веб-верстке. Я очень люблю изучать что-то новое, учиться и очень ответственно к этому
-            отношусь. Считаю что в жизни главное: <strong> свобода быть самим собой,доброта,любовь и
-                самореализация.</strong>
-    </div>
-    <p>Мои любимые жизненные девизы и цитаты:</p>
-    <ul class="rita">
-        <li>Дорогу осилит идущий</li>
-        <li>Живи моментом</li>
-        <li>Никогда не сдавайся</li>
-    </ul>
-
-    <h2 class="fox">Я люблю животных.</h2>
-    <p class="hruu"> У меня есть кошка <em>Сарина</em> и кот <em>Дяк</em>, но в детстве я мечтала о лошади. Жаль,но моя
-        мечта не исполнилась, зато я занималась конным спортом и умею ездить вверхом.</p>
-    <H3 class="main">Моя дочка Роза</H3>
-    <p class="hruu"> Роза очень активный и любознательный ребенок. Она очень любит петь песни. Вот ее любимая песня :
-    <blockquote class="hruu">zum zum zum papuero papa zum zum zum zum papuero papa zum</blockquote>
-    <p class="hruu">Эта песня из урока-обучения детей музыке, который мы смотрим вместе с ней на ютубе </p>
-    <p> <a target="_blank" href="https://www.youtube.com/watch?v=zmLAeM6V1gw">детский урок</a> </p>
-
-    <table class="border-line">
-        <caption class="main">Мотивация</caption>
-        <tr>
-            <th>моя цель</th>
-            <th>мои действия</th>
-            <th>мой результат</th>
-        <tr>
-            <td>стать фронтэнд-разработчиком</td>
-            <td> проходить курс по веб-верстке и делать домашнюю работу,не стоять на месте,развиваться в этой сфере
-                глубже,быть терпеливой и настойчивой,пройти еще более углубленный курс,практиковаться,найти работу с
-                огромной практикой</td>
-            <td rowspan="3">я достигла своей цели и иду ставить новую</td>
-        </tr>
-        <tr>
-            <td>красиво профессионально танцевать</td>
-            <td>танцую в total stretch studio по направлению: стрип</td>
-        </tr>
-        <tr>
-            <td>воспитать дочку полноценным человеком</td>
-            <td>провожу с ней достаточно времени,ухаживаю,забочусь о ней,играю и гуляю с ней,выражаю свои чувства и не
-                запрещаю ей выражать свои,читаю книги про воспитание, работаю над собой,духовно и эмоционально
-                развиваюсь</td>
-        </tr>
-    </table>
-    <div class="content_img">
-
-
-    </div>
-    <h3>Хочу узнать о Вас побольше,чтобы узнать какой контент вам интересен на сайте</h3>
-    <form action="#">
-
-        <p class="form">Ваше имя <input class="user-name" type="text" autofocus placeholder="Мария" required></p>
-        <p class="form">Пароль <input class="password" type="password" required></p>
-        <p class="form">Ваша почта <input class="email" type="email" required placeholder="maria1995@gmail.com"></p>
-        <p class="form">Возраст <input class="number" type="number" min="0" max="100"></p>
-        <p class="form">Дата Рождения <input class="date" type="date" required></p>
-        <label class="form" for="year">Год защиты диплома</label>
-        <select class="year" name="year" id="year" multiple>
-            <option value="2020">2020 год</option>
-            <option value="2021">2021 год</option>
-            <option value="2022">2022 год</option>
-            <option value="2023">2023 год</option>
-        </select>
-    </form>
-    <form oninput="o.value = range.value" action="form.php" method="get">
-
-        <p class="chaild">Колличество детей</p>
-        <input type="range" name="range" min="0" max="5">
-        <output name="o"></output>
-    </form>
-    <div><button class="botty" type="submit">Отправить</button>
-        <button class="botty" type="reset">Удалить</button>
-    </div>
-
-    <fieldset>
-        <legend>
-            <h4>мое обучение вокалу</h4>
-        </legend>
-        <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus error quo sed voluptatibus amet sunt
-            voluptas non tempore odit esse tempora optio, unde dolorum laudantium laboriosam facilis quam autem officiis
-            omnis ex at maxime natus. Nesciunt debitis deleniti molestiae necessitatibus tenetur aut ut quas quam sed
-            sapiente voluptatum harum sit consectetur est, maiores esse iste perspiciatis hic modi nulla illo doloribus
-            quia. Laborum quisquam ullam illo voluptates ab aspernatur laudantium nemo culpa eaque repudiandae deleniti
-            harum, quas quis sit, officiis, tempora quia quibusdam iure debitis? At odio voluptatum magnam adipisci sed
-            culpa, voluptates fugit. Cumque laudantium sunt nam. Fugit, ex magnam odit quae quos est reprehenderit nulla
-            soluta aperiam consequatur reiciendis aut eveniet quod labore laboriosam harum ea dolorem error quidem
-            incidunt veritatis recusandae ipsam dicta commodi! Non sequi vel nobis asperiores blanditiis. Ad inventore
-            repellendus obcaecati repellat possimus quibusdam blanditiis nisi fugiat et, cumque in quasi eos consequatur
-            assumenda adipisci maiores eligendi voluptates sequi, voluptatem eum magni aspernatur facilis sunt.
-            Repudiandae atque dicta accusamus autem rerum perferendis reiciendis non architecto ab. Esse voluptatibus
-            aperiam nulla amet illo incidunt consequuntur quos ratione! Pariatur eos sint laboriosam dolor beatae
-            tenetur ipsum non obcaecati fugiat accusantium, at magni incidunt, nemo labore rem nihil error id doloribus
-            delectus? Tempore pariatur dolorum modi quam explicabo magnam, porro dolores beatae illum, rem dicta
-            repellendus cupiditate a. Unde mollitia hic optio quis repellat numquam vitae praesentium. Autem totam fugit
-            itaque cumque, blanditiis provident repellat aliquid possimus aperiam qui enim nostrum nobis odit est,
-            consectetur quam doloremque necessitatibus facilis culpa iure esse optio eaque error. Consectetur
-            reprehenderit et, dolor magni eos quam repellat praesentium quae. Aliquam harum atque quaerat, saepe
-            dolores, et ipsum temporibus ex nesciunt excepturi suscipit tempora asperiores beatae enim maxime ad? Fuga
-            iusto molestiae ipsam doloribus ex perferendis veniam libero, illo voluptatem repellat animi, molestias
-            dignissimos maxime impedit beatae autem hic blanditiis fugiat minus harum eveniet ut magni. Possimus,
-            commodi aperiam modi deserunt suscipit molestias perspiciatis? Assumenda maiores ullam ratione inventore
-            animi, dignissimos rem nam sed atque laudantium sint provident architecto, repudiandae nisi optio dolore
-            corrupti ea in? Quidem, voluptatem ad natus reiciendis ea, non pariatur repellat optio aspernatur mollitia
-            amet eius, architecto aut aliquid animi qui veniam esse inventore? Expedita praesentium quas odio reiciendis
-            fuga veritatis obcaecati quam distinctio at laboriosam consectetur facere, cum a neque ad saepe officia
-            aspernatur molestiae. Quibusdam sunt aperiam, sit possimus necessitatibus qui modi repellat nostrum deleniti
-            pariatur velit libero non eligendi. Veniam officia sequi, nulla quam ducimus dignissimos aperiam fugiat
-            sapiente consequuntur animi porro illo repellat eum aut quaerat ad esse. Maxime, atque. Quam, officia.
-            Laboriosam, accusamus eum expedita voluptate eius dignissimos totam amet natus possimus earum, numquam quasi
-            repellendus exercitationem ab voluptatibus optio labore reiciendis! Vero, quos nemo? Temporibus, quidem,
-            corrupti ducimus placeat molestias mollitia similique id facere itaque labore eos vel distinctio eveniet
-            expedita fugiat nesciunt maiores provident reprehenderit dolorum modi. Rem nihil vero, similique non
-            assumenda esse pariatur! Accusantium cumque repellat sunt cupiditate voluptatum temporibus maxime pariatur
-            omnis inventore! Distinctio nemo, dicta mollitia ullam facere, pariatur quia, cupiditate neque tenetur
-            expedita accusamus doloribus quidem magnam. Deserunt eveniet natus, quod dolores saepe error harum
-            laudantium. Alias corporis aut repudiandae dolor dolorum quae omnis, aperiam illo, neque, architecto unde?
-            Natus explicabo, ut neque nam odit nulla ad. Atque aliquid assumenda dicta iure voluptatibus maxime
-            architecto pariatur consequatur obcaecati quod. Maxime alias iusto voluptate quaerat doloremque maiores
-            minus, debitis sint laboriosam vel voluptates enim obcaecati illo ipsum voluptatibus quis modi. Hic
-            voluptate quos ipsa totam odio. Rem quisquam quae totam nam soluta omnis rerum modi deserunt eos recusandae
-            harum sapiente illo doloremque, vitae reiciendis nihil velit quis.
-        </p>
-        <table>
-            <tr>
-                <td> <input checked type="checkbox" name="yes" id="yes1"></td>
-
-                <td> <label for="yes1">согласен с условиями</label></td>
-                <td> <input type="checkbox" name="yes" id="readall"></td>
-
-                <td> <label for="readall">все прочитал</label></td>
-
-                <td> <input type="checkbox" name="yes" id="check"></td>
-
-                <td><label for="check"> подписка на рассылку</label></td>
-            </tr>
-        </table>
-    </fieldset>
-    <h4>Хотите ли новый контент на сайте?</h4>
-    <input checked type="radio" name="content" id="yea"><label for="yea"> Да</label>
-    <input type="radio" name="content" id="no"><label for="no">Нет</label>
-    <div class="header">Lorem, ipsum.</div>
-    <div class="content">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut eum quam maxime quia provident
-        doloribus debitis quis blanditiis tempore illum natus tenetur voluptate, quos delectus facilis corrupti!
-        Deserunt sapiente nostrum, et accusamus sint maiores fugit. Cum aliquam incidunt dolore nostrum consequatur
-        corporis porro similique, velit odit laboriosam repellendus, doloremque ullam sit qui modi reprehenderit iure
-        non eos ad necessitatibus nisi architecto. Rerum blanditiis eum incidunt natus laboriosam. Quam molestiae eius
-        autem itaque deleniti. Nam, ad. Ipsa hic harum iure culpa facere modi ducimus, aspernatur doloremque accusamus
-        quis asperiores, praesentium dolor ad consectetur neque. Accusantium assumenda et non similique ut nemo!
-
-    </div>
-    <div class="article">
-        <h3 class="article_heading">Lorem, ipsum.</h3>
-        <img src="img/cat.png" alt="cat">
-    </div>
-    <p class="tipography"> we offer </p>
-    <div class="footer">все права защищены</div>
+    </main>
+    <footer class="footer">
+        <p class="footer__text">2023 &copy; <a class="footer__work-centr" href="#">учебный центр</a></p>
+    </footer>
 </body>
 
 </html>
