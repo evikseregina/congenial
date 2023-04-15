@@ -485,6 +485,7 @@ img {
         max-width: 650px;
         width: 100%;
         padding-left: 0px;
+        padding-right: 0px;
     }
 
     .header__logo {
@@ -493,13 +494,11 @@ img {
 
     .header__menu {
         align-items: center;
-        gap: 14px;
-
     }
 
     .header__menu-link {
         text-align: center;
-        font-size: 14px;
+        font-size: 12px;
         padding: 20px 5px;
     }
 
@@ -543,8 +542,10 @@ img {
         justify-content: center;
         gap: 30px;
         text-align: center;
+    }
 
-
+    .main__heading {
+        font-size: 24px;
     }
 
     .main__content-students {
@@ -558,6 +559,7 @@ img {
 
     .main__title {
         text-align: center;
+        font-size: 18px;
     }
 
     .main__heading-students {
@@ -578,7 +580,6 @@ img {
         flex-wrap: wrap;
         flex-direction: column;
         align-items: center;
-        margin-left: 25px;
     }
 
     .main__map {
@@ -619,9 +620,6 @@ img {
         max-width: 430px;
     }
 
-    .footer {
-        min-width: 520px;
-    }
 }
 
 @media screen and (max-width: 360px) {
